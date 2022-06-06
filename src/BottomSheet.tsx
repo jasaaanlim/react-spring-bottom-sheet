@@ -443,6 +443,9 @@ export const BottomSheet = React.forwardRef<
       get height() {
         return heightRef.current
       },
+      get headerHeight() {
+        return headerRef
+      }
     }),
     [send]
   )
